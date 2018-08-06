@@ -1,0 +1,111 @@
+body {
+    padding:0;
+    margin: 0;
+    background-color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.box {
+    background-color: pink;
+    display: flex;
+    margin-top: 20px;  
+}
+.box-item{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.box2 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+}
+.box3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box4 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.box5 {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.box6 {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.box7 {
+    flex-direction: row;
+    justify-content: center;
+}
+.box8 {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box9 {
+    flex-direction: row;
+    justify-content:space-around; 
+}
+.box-item-tall {
+    height: 200px;
+}
+.box-tall {
+    height: 400px;
+}
+.box10 {
+    flex-direction: row;
+    align-items: flex-start;
+}
+.box11 {
+    flex-direction: row;
+    align-items: flex-end;
+}
+.box12 {
+    flex-direction: row;
+    align-items: center;
+}
+.box13 {
+    flex-direction: row;
+    align-items: stretch; /*需要未设置高度或者是auto */
+}
+.box14 {
+    flex-direction: row;
+    /* 与项目第一行的文字基线对齐 */
+    align-items: baseline;  
+}
+.box15 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box16 {
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: flex-end; 
+}
+.box17 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.box18 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* 与交叉轴两端对齐，轴线之间的间隔平均分布 */
+    align-content: space-between;
+}
+.box19 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* 每根轴线两侧的间隔相等，轴线之间的间隔比边框的间隔大一倍 */
+    align-content: space-around;
+}
